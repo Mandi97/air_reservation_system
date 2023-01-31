@@ -1,0 +1,11 @@
+from planes.airplane import Airplane
+
+
+class Boeing737Max(Airplane):
+    @staticmethod
+    def get_airplane_model():
+        return 'Boeing 737 Max'
+
+    @staticmethod
+    def get_seating_plan():
+        return range(1, 26), 'ABCDEG'

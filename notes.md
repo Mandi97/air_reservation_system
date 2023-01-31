@@ -1,3 +1,6 @@
+- DRY - don't repeat yourself
+- KISS - keep it simple, stupid
+
 # OOP
 
 ## Zasady
@@ -5,6 +8,11 @@
 2. Dziedziczenie (inheritance)
 3. Polimorfizm (polymorphism)
 4. Hermetyzacja (encapsulation)
+    - Access modifiers (modyfikatory dostępu)
+      - Private - tylko klasa bazowa - `__name`
+      - Protected - klasa bazowa i dzedzicząca - `_name`
+      - ✓ Public - wszędzie - `name`
+      - Read only - stała - `NAME`
 
 
 ### SOLID
